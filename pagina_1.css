@@ -40,6 +40,7 @@ header h1 {
     flex-direction: column;
     align-items:center;
 }
+
 .subelement{
     position: relative;
     display: flex;
@@ -53,6 +54,16 @@ header h1 {
 
 }
 
+.subelement_1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:40%;
+    width:60%;
+    padding:0.3rem;
+    border-radius: 0.5rem;
+}
 
 p {
     border: 1px solid black;
