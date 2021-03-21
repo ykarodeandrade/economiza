@@ -22,6 +22,8 @@ header img {
     left: 28rem; 
 }
 
+
+
 header h1 {
     position: relative;
     font: 2.5rem white;
@@ -30,6 +32,7 @@ header h1 {
     color: white;
     left:25rem;
 }
+
 
 .basic{
     display:flex;
@@ -65,6 +68,18 @@ header h1 {
     font-size:2rem;
 }
 
+
+.subelement_1{
+    position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:30%;
+    width:80%;
+    padding:0.3rem;
+    margin: 1.5rem
+}
+
 .subelement_2{
     position: relative;
     display: flex;
@@ -80,21 +95,38 @@ header h1 {
 
 }
 
-.subelement_1{
+.subelement_3{
     position: center;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height:30%;
-    width:80%;
-    padding:0.3rem;
-    margin: 1.5rem
+    justify-content: center;
+    left:42rem;
+    height:70%;
+    width:10%;
+    border: 0.2rem solid black;
+    padding:2rem;
+    border-radius: 0.6rem;
+
 }
+
 
 .subelement_1 a{
     font-size:8rem;
 }
 
-p {
+footer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(89, 255, 47);
+}
+
  
+
+footer img {
+    position: absolute;
+    justify-content: center;
+    right: 70rem;
+    top: 0rem; 
 }
