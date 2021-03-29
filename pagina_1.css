@@ -10,10 +10,11 @@ html{
 
 header {
     display: flex;
-    justify-content: center;
+    position:relative;
     align-items: center;
-    background-color: rgb(89, 255, 47);
     height:7.5rem;
+    background-color: rgb(89, 255, 47);
+    
 }
 
 header h1 {
@@ -21,14 +22,18 @@ header h1 {
     font-weight: bold;
     font-style: italic;
     color:black;
+    text-align: left;
+    max-width:75%;
 }
 
 
 
 header h2 {
-    font: 2.5rem white;
+    font: 1.5rem white;
     font-weight: bold;
     color: white;
+    max-width:70%;
+    text-align:left;
 
 }
 
@@ -57,7 +62,7 @@ header h2 {
     height:30%;
     width:80%;
     border: 0.2rem solid black;
-    padding:2rem;
+    padding:1rem;
     margin:2rem;
     border-radius: 0.6rem;
 
@@ -119,6 +124,8 @@ footer {
     position: relative;
     justify-content: center;
     align-items: center;
+    height:4rem;
+    top:16rem;
     background-color: rgb(89, 255, 47);
 }
 
