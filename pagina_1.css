@@ -126,6 +126,10 @@ header h2 {
 
 li span {
     display: block;
+    position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 .subelement_1 a{
