@@ -14,7 +14,6 @@ header {
     align-items: center;
     height:7.5rem;
     background-color: rgb(64, 219, 92);
-    font-family: 'Lora', serif;
     
 }
 
@@ -25,7 +24,7 @@ header h1 {
     color:black;
     text-align: left;
     max-width:75%;
-    font-family: 'Lora', serif;
+    font-family: 'Lora', sans-serif;
 }
 
 
@@ -36,7 +35,7 @@ header h2 {
     color: white;
     max-width:70%;
     text-align:left;
-    font-family: 'Lora', serif;
+    font-family: 'Lora', sans-serif;
 
 }
 
@@ -106,15 +105,15 @@ header h2 {
 }
 
 .subelement_3{
-    position: center;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    left:42rem;
-    height:70%;
-    width:10%;
+    left: 5rem;
+    height: 70%;
+    width: 10%;
     border: 0.2rem solid rgb(27, 92, 39);
-    padding:2rem;
+    padding: 2rem;
     border-radius: 0.6rem;
     font-family: 'Source Sans Pro', sans-serif;
 
