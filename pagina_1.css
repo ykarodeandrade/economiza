@@ -14,6 +14,7 @@ header {
     align-items: center;
     height:7.5rem;
     background-color: rgb(64, 219, 92);
+    font-family: 'Lora', serif;
     
 }
 
@@ -24,6 +25,7 @@ header h1 {
     color:black;
     text-align: left;
     max-width:75%;
+    font-family: 'Lora', serif;
 }
 
 
@@ -34,6 +36,7 @@ header h2 {
     color: white;
     max-width:70%;
     text-align:left;
+    font-family: 'Lora', serif;
 
 }
 
